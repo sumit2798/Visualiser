@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Sorting Visualiser </title>
+</head>
+<body>
+<form action="/Sort" method="POST">
+    <input type="button" name="genrate" value="generate new Array"><br>
+    <div class="slidecontainer">
+    <input type="range" min="1" max="100" value="50" class="slider" id="myRange" name="range">
+    </div>
+<label for="visualiser">Choose a visualiser:</label>
+<select name="visualiser" id="visual">
+  <option value="Selection">Selection</option>
+  <option value="Merge">Bubble</option>
+  <option value="Insertion">Insertion</option>
+  <option value="Quick Sort">Quick Sort</option>
+    <option value="Heap Sort">Heap Sort</option>
+
+</select>
+    <br>
+<input type="Submit" value="Sort">
+</form>
+
+
+</body>
+</html>
